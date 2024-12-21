@@ -36,7 +36,7 @@
 ## Setup and Installation
 1. Clone or download the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/arakunle22/Task-Manager---Project.git
 2. Open the project folder and navigate to the index.html file.
 3. Open index.html in any modern web browser to start the application.
 
