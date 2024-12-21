@@ -6,7 +6,6 @@
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
 - [Credits](#credits)
 - [License](#license)
 
@@ -51,20 +50,6 @@
     - Click the trash icon to delete a specific task.
     - Use the "Clear all tasks" button to remove all tasks from the list.
 
-
-## File Structure
-
-Task Manager/
-│
-├── index.html            # Landing page
-├── task-manager.html      # Main task manager interface
-├── style.css             # Styling for the application
-├── script.js             # JavaScript functionality
-├── img/                  # Images used in the project
-│   ├── landing.jpg
-│   ├── Logout-preview.png
-│
-└── README.md             # Project documentation
 
 
 ## Credits
