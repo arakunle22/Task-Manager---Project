@@ -1,0 +1,177 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap");
+
+/* Universal Selector */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  outline: none;
+}
+
+/* Container & Anchor Tag */
+
+.container {
+  margin: 6rem auto 0 auto;
+  width: 1100px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Welcome Area */
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+
+.welcome-area {
+  line-height: 1.5;
+  width: 50%;
+}
+
+.logout-icon img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
+
+/* Input **/
+
+.input-task input {
+  width: 40%;
+  border-radius: 20px;
+  padding: 15px 20px;
+  border: 1px solid #bfbfbf;
+}
+
+.search-input input {
+  width: 30%;
+  margin-top: 30px;
+  float: right;
+  border-radius: 20px;
+  padding: 15px 20px;
+  border: 1px solid #bfbfbf;
+  margin-bottom: 20px;
+}
+
+/* Task Table */
+.task-list {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+/* Table Header */
+.task-list th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-weight: 600;
+}
+
+/* Table Rows (even and odd) */
+.task-list tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.task-list tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Table Data */
+.task-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Action Buttons (Edit and Delete) */
+.editBtn {
+  background-color: #4479bd;
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  background-color: #ff0000;
+}
+
+/* Error message */
+.error {
+  color: red;
+  background-color: #ffcccc;
+  width: 40%;
+  margin: 0.5rem 0;
+  padding: 10px 20px;
+  display: none;
+  border-radius: 20px;
+}
+
+/* button */
+
+.btn {
+  color: white;
+  border-radius: 20px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.create {
+  background-color: #4479bd;
+  margin-top: 15px;
+}
+
+.clear-all {
+  background-color: #000;
+  margin-top: 15px;
+}
+
+/*** CSS STYLING FOR LANDING PAGE ***/
+
+/* Landing */
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+/* Proceed Button */
+.proceed {
+  background-color: white;
+  color: #4479bd;
+  text-transform: uppercase;
+}
+
+/* Landing Left */
+.landing-left img {
+  width: 30rem;
+}
+
+/* Landing Right */
+
+.landing-right {
+  background: #4479bd;
+  color: #ffffff;
+  width: 100%;
+  height: 40rem;
+  padding: 10rem 2rem;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.landing-right h1 {
+  margin-bottom: 1rem;
+}
+
+.landing-right p {
+  margin-bottom: 2rem;
+}

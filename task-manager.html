@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome">
+        <div class="welcome-area">
+          <h2>Welcome, User</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat
+          </p>
+        </div>
+        <div class="logout-icon">
+          <a href="./index.html"><img src="img/Logout-preview.png" alt="logout" /></a>
+        </div>
+      </div>
+      <form action="#">
+        <!--<h3 class="create-task">Create a task</h3>-->
+
+        <!--Error Statement-->
+        <p class="error">Please enter a task</p>
+
+        <div class="input-task">
+          <input type="text" id="input-task" placeholder="Enter a task" />
+        </div>
+
+        <button id="add-task" class="btn create">Create</button>
+
+        <!--Search task input-->
+        <div class="search-input">
+          <input type="text" id="search-input" placeholder="Search.." />
+        </div>
+      </form>
+      <!--List the task registered as a table-->
+      <table class="task-list">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows will be added dynamically via JavaScript -->
+        </tbody>
+      </table>
+
+      <button class="btn clear-all">Clear all tasks</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
